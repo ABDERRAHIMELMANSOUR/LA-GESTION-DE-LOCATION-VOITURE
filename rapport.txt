@@ -1,0 +1,50 @@
+*************LE RAPPORT DU PROJET*****************
+
+
+"Les fonctions que vous avez utilisées dans le projet sont les suivantes":
+
+1-MenuPrincipal():
+   C'est le menu principal,Il contient les listes suivantes:"LocationVoiture(),GestionDesVoitures(),GestionDesClients()".
+
+2-LocationVoiture():
+   Il s'agit d'une liste qui à son tour contient cinq fonctions, comme suit:
+     
+      1-Visualiser_Contrat():visualiser les informations contenues dans un contrat à partir de son numéro.
+     
+      2-Louer_Voiture():Elle traite l'identifiant de l'utilisateur qui le saisit,
+      s'il n'existe pas,nous ajoutons l'utilisateur s'il le souhaite, par la fonction : Ajouter_Client(client C),
+      Ensuite, nous affichons les voitures non louées, puis l'utilisateur saisit l'identifiant de voiture qu'il souhaite,
+      Il entre ensuite la période de location en jours,et la date de début et fin,
+      ensuite on crée le contrat avec la fonction : ajout_contrat(contrat R,int DR)
+     
+      3-Retourner_Voiture(): retourner une voiture déjà louée En saisissant votre identifiant de voiture,
+      changer la valeur de l’attribut « EnLocation » de « Oui » à « Non » .
+     
+      4-Modifier_contrat():L'utilisateur entre le numéro de contrat,
+      et modifier  sur le contrat la date de retour .
+      
+      5-Supprimer_Contrat():supprimer un contrat,En entrant son numéro.
+
+3-GestionDesVoitures():
+  Il s'agit d'une liste qui à son tour contient quatre fonctions, comme suit:
+     
+      1-Liste_des_voitures(voiture A): afficher la liste des voitures déjà enregistrées dans le fichier « Voitures ».
+
+      2-Ajouter_Voiture(voiture A): ajouter une nouvelle voiture dans le fichier « Voitures » .
+
+      3-Modifier_Voiture(voiture A):modifier les informations concernant une voiture déjà enregistrée,Depuis votre identifiant de voiture.
+      En saisissant de nouvelles informations.
+
+      4-Supprimer_Voiture(): supprimer une voiture du fichier « Voitures »,Depuis votre identifiant de voiture.
+
+4-GestionDesClients():
+  Il s'agit d'une liste qui à son tour contient quatre fonctions, comme suit:
+     
+      1-Liste_des_Clients(client C):afficher la liste des clients déjà enregistrées dans le fichier « Clients ».
+    
+      2-Ajouter_Client(client C):ajouter un nouveau client dans le fichier « Clients ».
+     
+      3-Modifier_Client(client C):modifier les informations concernant un client déjà enregistré,À partir d'id de client,
+      En saisissant de nouvelles informations.
+   
+      4-Supprimer_Client(): supprimer un client du fichier « Clients »,À partir d'id de client.
